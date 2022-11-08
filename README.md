@@ -1,1 +1,1 @@
-# Metaplex Candy Machine Reference UI
+# Fast Ape Speed Club Minting App

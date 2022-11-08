@@ -632,7 +632,7 @@ const Home = (props: HomeProps) => {
             align="center"
             display="block"
             style={{ marginTop: 7, color: "grey" }}
-          >Fast Ape Speed Club
+          >Fast Ape Speed Club!
           </Typography>
         </Paper>
       </Container>
