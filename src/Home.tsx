@@ -331,7 +331,7 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-                3836 Apes racing around the Solana racetrack!!!
+                3836 Apes racing around the Solana racetrack!!!!
               </p>
               <p>
               (Max mint 10 per transaction)
