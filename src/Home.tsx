@@ -322,7 +322,7 @@ const Home = (props: HomeProps) => {
                   <img
                     style={{
                       filter: "invert(1)",
-                      maxWidth: "350px",
+                      maxWidth: "700px",
                     }}
                     src="/logo.png"
                     alt="logo"
@@ -331,9 +331,11 @@ const Home = (props: HomeProps) => {
               </Heading>
 
               <p>
-                3836 Apes racing around the Solana racetrack. Ready to go Mach 5
+                3836 Apes racing around the Solana racetrack!!!
               </p>
-
+              <p>
+              (Max mint 10 per transaction)
+              </p>
               {guardStates.isStarted && (
                 <MintCount>
                   Total Minted : {candyMachineV3.items.redeemed}/
