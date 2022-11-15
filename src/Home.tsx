@@ -120,7 +120,7 @@ export interface HomeProps {
 const candyMachinOps = {
   allowLists: [
     {
-      list: require("../cmv3-demo-initialization/allowlist.json"),
+      list: require("/allowlist.json"),
       groupLabel: "waoed",
     },
   ],
