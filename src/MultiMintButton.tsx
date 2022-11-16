@@ -129,8 +129,8 @@ export const MultiMintButton = ({
           (prices.payment
             .filter(({ kind }) => kind === "sol")
             .reduce((a, { price }) => a + price, 0) +
-            0.012)
-        : 0.012,
+            0.00)
+        : 0.00,
     [mintCount, prices]
   );
   const totalTokenCosts = useMemo((): PaymentRequired[] => {
@@ -303,7 +303,7 @@ export const MultiMintButton = ({
       </div>
       {!isSoldOut && isActive && (
         <h3>
-          Total estimated cost (Solana fees included): {totalSolCost} SOL
+          Total cost: {totalSolCost} SOL
           {totalTokenCostsString}
         </h3>
       )}
