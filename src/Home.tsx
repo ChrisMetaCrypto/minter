@@ -334,7 +334,7 @@ const Home = (props: HomeProps) => {
                 3836 Apes racing around the Solana racetrack!!!!
               </p>
               <p>
-              (Max mint 10 per transaction.)
+              (Max mint 5 per transaction.)
               </p>
               {guardStates.isStarted && (
                 <MintCount>

@@ -250,7 +250,7 @@ export const MultiMintButton = ({
           className="mint-qty"
           step={1}
           min={1}
-          max={Math.min(limit, 10)}
+          max={Math.min(limit, 5)}
           value={mintCount}
           onChange={(e) => updateMintCount(e.target as any)}
         />
