@@ -303,7 +303,8 @@ export const MultiMintButton = ({
       </div>
       {!isSoldOut && isActive && (
         <h3>
-         
+          Cost: {totalSolCost} SOL
+          {totalTokenCostsString}
         </h3>
       )}
         {guardStates.messages?.map((m, i) => (
